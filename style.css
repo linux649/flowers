@@ -1,0 +1,142 @@
+/* css annotations */
+@font-face {
+    font-family: "Bebas Neue Bold";
+    src: url("fonts/BebasNeue-Bold.otf");
+}
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url("fonts/BebasNeue-Light.otf");
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("fonts/BebasNeue-Regular.otf");
+}
+@font-face {
+    font-family: "Stencil";
+    src: url("fonts/STENCIL.TTF");
+}
+/* id styles */
+#logoimg {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+#logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px 50px;
+    float:left;
+}
+#banner {
+    float:left;
+    height:80px;
+    display:flex;
+    align-items: center;
+}
+#header-border {
+    height: 82px;
+}
+#sidebarleft {
+    display: none;
+    float: left;
+    width: 200px;
+    padding: 5px;
+}
+#sidebarright {
+    display: none;
+    float: right;
+    width: 200px;
+    padding: 5px;
+}
+#maincontent {
+    display: block;
+   /* flex-direction: column; */
+    width: 1000px;
+    margin: 0px auto;
+  /*  align-items: center;
+    justify-content: center; */
+   /* background-color: white;*/
+  /* background-image: url("images/cherryblossom1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;*/
+}
+/*#navbar {
+    border:1px; 
+    border-style:dashed;
+    border-color: black; 
+}*/
+#mainimage {
+    display: block;
+    width: 900px;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    object-fit: cover;
+    height: 350px;
+    
+}
+#changeimagebutton {
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#blooming {
+    display: block;
+}
+#culinary {
+    display: block;
+}
+#hanami {
+    display: block;
+}
+#navsplit {
+    margin: 0;
+}
+#title {
+    font-family: "Stencil", "Bebas Neue Bold", sans-serif;
+}
+/* element class styles */
+
+/* element styles */
+html {
+    background-color: black;
+    font-family: sans-serif;
+}
+header {
+    background-color: white;
+    color:black;
+}
+body {
+    width:99%;
+    /*background-image: url(images/cherryblossom1.jpg);
+    background-size: auto;*/
+    color: white;
+
+}
+footer {
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    background-color: white;
+    color:black;
+    width: 98vw;
+}
+section {
+    margin: auto 10px;
+   /* color: beige; */
+}
+
+p {
+    font-family: "Bebas Neue", sans-serif;
+}
+h1,h2 {
+    font-family: "Bebas Neue Bold", sans-serif;
+}
+/* class styles */
+.nav-link {
+    display:inline-block;
+    margin:10px;
+    padding: 0 2px;
+}
