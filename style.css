@@ -50,22 +50,9 @@
 }
 #maincontent {
     display: block;
-   /* flex-direction: column; */
     width: 1000px;
     margin: 0px auto;
-  /*  align-items: center;
-    justify-content: center; */
-   /* background-color: white;*/
-  /* background-image: url("images/cherryblossom1.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;*/
 }
-/*#navbar {
-    border:1px; 
-    border-style:dashed;
-    border-color: black; 
-}*/
 #mainimage {
     display: block;
     width: 900px;
@@ -110,8 +97,6 @@ header {
 }
 body {
     width:99%;
-    /*background-image: url(images/cherryblossom1.jpg);
-    background-size: auto;*/
     color: white;
 
 }
@@ -125,7 +110,6 @@ footer {
 }
 section {
     margin: auto 10px;
-   /* color: beige; */
 }
 
 p {
