@@ -53,17 +53,24 @@
     width: 1000px;
     margin: 0px auto;
 }
-#mainimage {
-    display: block;
-    width: 900px;
-    height:auto;
-    margin-left: auto;
+#mainimage1 {
+    display: inline-block;
+    width: 450px;
+    height:450px;
+    margin-left: 1px;
     margin-right: auto;
     margin-top: 5px;
     object-fit: cover;
-    height: 350px;
     
 }
+#mainimage2 {
+    display: inline-block;
+    width: 450px;
+    height:450px;
+    margin-left: auto;
+    margin-right: 1px;
+    margin-top: 5px;
+    object-fit: cover;
 #changeimagebutton {
     padding: 5px;
     margin-left: 40%;
